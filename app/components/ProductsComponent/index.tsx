@@ -1,7 +1,10 @@
-import Image from "next/image"
-import product from "../../../public/cta.svg"
-
-export const ProductsComponent = ({ position, color = '#fff' }) => {
+import Image from "next/image";
+import product from "../../../public/cta.svg";
+interface ProductsComponentProps {
+    position: 'left' | 'right';
+    color?: string; 
+}
+export const ProductsComponent : React.FC<ProductsComponentProps> = ({ position, color = '#fff' }) => {
     const image = () => (
         <div className="mt-8">
             <Image src={product} alt="test" />
