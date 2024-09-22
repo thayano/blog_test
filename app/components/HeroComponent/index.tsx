@@ -12,11 +12,10 @@ export const HeroComponent = () => {
 
       <div className="w-7/12 mx-auto text-center relative mt-8"> 
         <p className="title">
-          Impulsionando construindo um futuro sustentável Tecnologia
+          Impulsionando a eficiência e a produtividade com inovação e tecnologia
         </p>
         <p className="mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
-          totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+          A inovação não é apenas sobre criar o novo, mas também sobre transformar o existente. É sobre desafiar o status quo e buscar soluções que impulsionem o progresso
         </p>
       </div>
 

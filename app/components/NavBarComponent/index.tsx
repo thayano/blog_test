@@ -5,8 +5,8 @@ type MenuOptions = Array<{ title: string, href: string }>;
 export const NavBarComponent = () => {
   const menu: MenuOptions = [
     { title: 'Home', href: '#/home' },
-    { title: 'Sobre', href: '#/about' },
-    { title: 'Blog', href: '#/blog' },
+    { title: 'História', href: '#/about' },
+    { title: 'Produtos', href: '#/blog' },
     { title: 'Contato', href: '#/contact' }
   ]
   return (
@@ -22,7 +22,7 @@ export const NavBarComponent = () => {
       </div>
      
       <div className="">
-        <button className="w-full bg-[#0AA8A7] py-2 px-4 rounded-full font-semibold text-white">Get Started</button>
+        <button className="w-full bg-[#0AA8A7] py-2 px-4 rounded-full font-semibold text-white">Sobre Nós</button>
       </div>
     </main>
   )
